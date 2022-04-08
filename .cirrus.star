@@ -1,4 +1,4 @@
-load("cirrus", "env", "https")
+load("cirrus", "env", "http")
 
 def on_build_failed(ctx):
     url = env.get("SLACK_WEBHOOK_URL")
