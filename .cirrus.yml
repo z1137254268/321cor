@@ -5,5 +5,5 @@ check_task:
   node_modules_cache:
     folder: node_modules
     fingerprint_script: cat yarn.lock
-    populate_script: yarn install
+    populate_script: npm install
   test_script: node index.js
