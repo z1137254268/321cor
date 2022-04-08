@@ -5,4 +5,4 @@ check_task:
   node_modules_cache:
     folder: node_modules
     populate_script: npm install
-  test_script: node indes.js
+  test_script: node index.js
