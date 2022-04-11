@@ -32,6 +32,7 @@
     "proxy-from-env": "0.0.1"
   },
   "devDependencies": {
+    "@architect/sandbox": "^5.2.2",
     "coveralls": "^2.11.6",
     "eslint": "^2.2.0",
     "istanbul": "^0.4.2",
@@ -41,12 +42,9 @@
     "supertest": "^2.0.1"
   },
   "scripts": {
-    "lint": "eslint .",
-    "test": "mocha ./test/test*.js --reporter spec",
-    "test-coverage": "istanbul cover ./node_modules/.bin/_mocha -- test/test.js test/test-ratelimit.js --reporter spec"
+    "start": "node index.js"
   },
   "engines": {
     "node": ">=0.10.0"
-  },
-  "scripts": { "start": "node index.js" }
+  }
 }
