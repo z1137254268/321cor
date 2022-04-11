@@ -1,6 +1,9 @@
 @app
 begin-app
 
+@events
+npm install
+
 @static
 
 @http
